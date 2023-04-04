@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #222;
+}
+
+#logo {
+    max-height: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+
+nav a:hover {
+    color: #56a902;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
