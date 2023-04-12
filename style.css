@@ -46,3 +46,9 @@ footer {
     color: #fff;
     text-align: center;
 }
+
+.screenshot {
+  width: 90%;
+  border: solid 0.25em #0004;
+  border-radius: 0.25em;
+}
