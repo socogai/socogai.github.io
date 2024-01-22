@@ -7,22 +7,32 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    background-color: #222;
+    padding: 0.5rem;
+}
+header img,
+header b,
+header nav,
+header nav a {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0.5rem;
 }
 
 #logo {
     max-height: 50px;
 }
 
+header b {
+    font-size: 1.5rem;
+}
+
 nav a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding: 0 0.5rem;
 }
@@ -42,8 +52,6 @@ h1 {
 
 footer {
     padding: 1rem;
-    background-color: #222;
-    color: #fff;
     text-align: center;
 }
 
